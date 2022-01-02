@@ -1,0 +1,34 @@
+﻿<Window x:Class="ApiTesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApiTesting"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="84" Width="474">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Euro Central Bank"/>
+                    <Label Content="0" x:Name="EuroCentralBank"/>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Dollar Central Bank"/>
+                    <Label Content="0" x:Name="DollarCentralBank" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Euro Buy Price"/>
+                    <Label Content="0" x:Name="EuroBuyPeice" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Dollar buy price"/>
+                    <Label Content="0" x:Name="DollarBuyPrice" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
